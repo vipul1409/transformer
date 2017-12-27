@@ -8,7 +8,7 @@ class StringEncodebase64Transform(BaseTransform):
     category = 'string'
     name = 'encode_base64'
     label = 'Convert to base64 encoding'
-    help_text = "Convert provided string to Base64 encoding"
+    help_text = 'Convert provided string to Base64 encoding'
 
     noun = 'Text'
     verb = 'convert to base64'
